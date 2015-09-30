@@ -1,0 +1,8 @@
+[core]
+  excludesfile = /Users/nilssommer/.gitignore_global
+  editor = nano
+[user]
+  name = Nils Sommer
+  email = mail@nilssommer.de
+[push]
+  default = simple

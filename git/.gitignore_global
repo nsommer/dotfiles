@@ -1,0 +1,2 @@
+# Ignore those files that OS X loves to generate everywhere.
+.DS_Store
