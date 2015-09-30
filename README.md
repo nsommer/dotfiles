@@ -10,7 +10,7 @@ This repository contains my dotfiles as well as instructions on how to set up an
 - [Installing homebrew](#installing-homebrew)
 - [Installing newer ruby](#installing-newer-ruby)
 - [Installing common gems](#installing-common-gems)
-    - [Development Tip: Project-specific-gems](#development-tip:-project-specific-gems)
+    - [Development Tip: Project-specific-gems](#development-tip-project-specific-gems)
 - [Installing common tools and libraries](#installing-common-tools-and-libraries)
 - [Installing VirtualBox](#installing-virtualbox)
 - [Installing Vagrant](#installing-vagrant)
