@@ -90,7 +90,7 @@ The following list of tools and libraries are installed via brew because I need 
 
 ```shell
 brew update
-brew install ffmpeg imagemagick mysql node maven pwgen irssi
+brew install sqlite3 node maven pwgen
 ```
 
 ### Enable developer perspective in Safari
