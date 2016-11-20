@@ -12,9 +12,6 @@ This repository contains my dotfiles as well as instructions on how to set up an
     - [Installing common gems](#installing-common-gems)
         - [Development Tip: Project-specific-gems](#development-tip-project-specific-gems)
     - [Installing common tools and libraries](#installing-common-tools-and-libraries)
-    - [Installing VirtualBox](#installing-virtualbox)
-    - [Installing Vagrant](#installing-vagrant)
-    - [Installing Sublimetext](#installing-sublimetext)
     - [Enable developer perspective in Safari](#enable-developer-perspective-in-safari)
 - [License](#license)
 
