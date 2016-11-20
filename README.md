@@ -33,7 +33,7 @@ cp dotfiles/shell/.bash_profile ~/.bash_profile
 
 The `.bash_profile` I use contains
 
-* rbenv init comamnd
+* rbenv init command
 * Some useful aliases
 * A hack to enhance npm by a useful exec command ([Read: npm exec](https://nilssommer.de/articles/8-npm-exec---running-project-specific-binaries))
 
