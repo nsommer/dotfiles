@@ -12,6 +12,7 @@ This repository contains my dotfiles as well as instructions on how to set up an
     - [Installing common gems](#installing-common-gems)
         - [Development Tip: Project-specific-gems](#development-tip-project-specific-gems)
     - [Installing common tools and libraries](#installing-common-tools-and-libraries)
+    - [Installing TextMate](#installing-textmate)
     - [Enable developer perspective in Safari](#enable-developer-perspective-in-safari)
 - [License](#license)
 
@@ -95,6 +96,9 @@ The following list of tools and libraries are installed via brew because I need 
 brew update
 brew install sqlite3 node maven pwgen
 ```
+
+### Installing TextMate
+TextMate [is my favorite editor](https://nilssommer.de/articles/9-textmate-rules), [download](http://macromates.com/download) and install it. 
 
 ### Enable developer perspective in Safari
 Go to `Safari -> Preferences -> Extended` and enable `Show "Developer" in the menu bar.`.
