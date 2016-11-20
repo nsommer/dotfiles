@@ -31,6 +31,12 @@ cp dotfiles/git/.gitignore_global ~/.gitignore_global
 cp dotfiles/shell/.bash_profile ~/.bash_profile
 ```
 
+The `.bash_profile` I use contains
+
+* rbenv init comamnd
+* Some useful aliases
+* A hack to enhance npm by a useful exec command ([Read: npm exec](https://nilssommer.de/articles/8-npm-exec---running-project-specific-binaries))
+
 ### Installing homebrew
 [brew](http://brew.sh) is the open source package manager for OS X. Before installing and running brew, the OS X command line developer tools have to be installed.
 
