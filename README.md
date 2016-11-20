@@ -51,7 +51,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ```
 
 ### Installing newer ruby
-The OS X command line tools contain a version of ruby that works for most of the things of course, however it is - as many software from the command line tools - quite outdated (ruby v2.0 in Yosemite).
+The OS X command line tools contain a version of ruby that works for most of the things of course, however it is - as many software from the command line tools - quite outdated (ruby v2.0 in El Capitan).
 
 First, [rbenv](https://github.com/sstephenson/rbenv) will be installed to manage ruby versions easily. I prefer rbenv over rvm because rbenv is really simple and doesn't modifiy lots of things in its environment as rvm does. To install rbenv, brew will be used.
 
@@ -63,11 +63,11 @@ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
-Now rbenv should be ready to use, so I'll just install an up-to-date version of ruby and set it as the global ruby version (at the time of writing this is 2.2.2).
+Now rbenv should be ready to use, so I'll just install an up-to-date version of ruby and set it as the global ruby version (at the time of writing this is 2.3.2).
 
 ```shell
-rbenv install 2.2.2
-rbenv global 2.2.2
+rbenv install 2.3.2
+rbenv global 2.3.2
 rbenv rehash
 ```
 
@@ -75,7 +75,7 @@ rbenv rehash
 I'll install a few gems that I use globally on a regular basis.
 
 ```shell
-sudo gem install bundler sass
+gem install bundler sass
 rbenv rehash
 ```
 
