@@ -93,13 +93,6 @@ brew update
 brew install ffmpeg imagemagick mysql node maven pwgen irssi
 ```
 
-### Installing VirtualBox
-[Download](https://www.virtualbox.org/wiki/Downloads) VirtualBox and install it.
-
-### Installing Vagrant
-[Download](https://www.vagrantup.com/downloads.html) Vagrant and install it.
-
-
 ### Enable developer perspective in Safari
 Go to `Safari -> Preferences -> Extended` and enable `Show "Developer" in the menu bar.`.
 
