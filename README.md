@@ -30,6 +30,7 @@ git clone https://github.com/nsommer/dotfiles.git
 cp dotfiles/.gitconfig ~/.gitconfig
 cp dotfiles/.gitignore_global ~/.gitignore_global
 cp dotfiles/.bash_profile ~/.bash_profile
+cp dotfiles/.ssh/config ~/.ssh/config
 ```
 
 The `.bash_profile` I use contains
@@ -37,6 +38,8 @@ The `.bash_profile` I use contains
 * rbenv init command
 * Some useful aliases
 * A hack to enhance npm by a useful exec command ([Read: npm exec](https://nilssommer.de/articles/8-npm-exec---running-project-specific-binaries))
+
+The `.ssh/config` file enables macOS keychain access for ssh.
 
 ### Installing homebrew
 [brew](http://brew.sh) is the open source package manager for macOS. Before installing and running brew, the macOS command line developer tools have to be installed.
