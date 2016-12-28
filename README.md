@@ -27,9 +27,9 @@ Copy the dotfiles into the home directory.
 
 ```shell
 git clone https://github.com/nsommer/dotfiles.git
-cp dotfiles/git/.gitconfig ~/.gitconfig
-cp dotfiles/git/.gitignore_global ~/.gitignore_global
-cp dotfiles/shell/.bash_profile ~/.bash_profile
+cp dotfiles/.gitconfig ~/.gitconfig
+cp dotfiles/.gitignore_global ~/.gitignore_global
+cp dotfiles/.bash_profile ~/.bash_profile
 ```
 
 The `.bash_profile` I use contains
