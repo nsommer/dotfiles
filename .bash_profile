@@ -1,10 +1,10 @@
 # rbenv is installed via homebrew, however this is still needed:
 eval "$(rbenv init -)"
 
-# Aliases
+# Enable colors int the terminal
+export CLICOLOR=1
 
-# Enable colors.
-alias ls='ls -G'
+# Aliases
 alias ll='ls -al'
 alias pw='pwgen -nBsc'
 
@@ -40,3 +40,18 @@ npm_shim() {
 }
 
 alias npm='npm_shim'
+
+# Get the Git branch
+parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+# Custom bash prompt
+#
+# Includes custom character for the prompt, path, and Git branch name.
+#
+# Source: kirsle.net/wizards/ps1.html
+export PS1="\[$(tput setaf 6)\]\w\[$(tput setaf 3)\]\$(parse_git_branch) \[$(tput sgr0)\]\$ "
+
+# Open files and URLs in safari from the terminal, just like mate or atom
+alias safari='open -a safari'
